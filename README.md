@@ -11,4 +11,4 @@ Supports searching for mods, as well as installing them.
 If you have any feedback, or find a bug, please open an issue.
 
 ## Supporting Me
-If you want to support me or my work, you can sponsor me via Github Sponsors, or 
+If you want to support me or my work, you can sponsor me via Github Sponsors, or my [patreon!](https://www.patreon.com/untoldtitan)
