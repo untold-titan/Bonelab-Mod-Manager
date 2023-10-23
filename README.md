@@ -1,16 +1,14 @@
-# bonelab_mod_manager
+<img align="left" width="80" height="80" src="https://raw.githubusercontent.com/untold-titan/bonelab_mod_manager/master/windows/runner/resources/app_icon.ico" alt="Resume application project app icon">
 
-A new Flutter project.
+# Bonelab Mod Manager
+---
+A Simple Mod Manager written in flutter, that interacts with the mod.io API to make finding and installing mods easier!
 
-## Getting Started
+Currently this manager only supports mods that do not use MelonLoader/LemonLoader, since it only downloads the pallets and installs them to Bonelab's Mod folder. 
 
-This project is a starting point for a Flutter application.
+Supports searching for mods, as well as installing them.
 
-A few resources to get you started if this is your first Flutter project:
+If you have any feedback, or find a bug, please open an issue.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Supporting Me
+If you want to support me or my work, you can sponsor me via Github Sponsors, or my [patreon!](https://www.patreon.com/untoldtitan)
