@@ -91,8 +91,7 @@ class _ModPageState extends State<ModPage> {
     // Move it to the bonelab folder
     extractFileToDisk(file.path, tempDir.path);
     var extractedfolder = await tempDir.list().first;
-    var uuid = const Uuid();
-    mod.folderName = uuid.v4();
+    mod.folderName = extractedfolder.path.split("\\").last;
     mod.installedVersion = data["version"];
     (extractedfolder as Directory)
         .rename("${widget.modFolder}/${mod.folderName}");

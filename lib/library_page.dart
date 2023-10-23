@@ -120,7 +120,7 @@ class _LibraryPageState extends State<LibraryPage> {
             Padding(
               padding: EdgeInsets.all(10.0),
               child: Text(
-                "Library Page",
+                "Mod Library",
                 style: TextStyle(fontSize: 20),
               ),
             ),
