@@ -114,21 +114,21 @@ class _LibraryPageState extends State<LibraryPage> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Row(
+        const Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            const Padding(
+            Padding(
               padding: EdgeInsets.all(10.0),
               child: Text(
                 "Library Page",
                 style: TextStyle(fontSize: 20),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.only(right: 20.0),
-              child: FilledButton(
-                  onPressed: () {}, child: const Text("Check for Updates")),
-            )
+            // Padding(
+            //   padding: const EdgeInsets.only(right: 20.0),
+            //   child: FilledButton(
+            //       onPressed: () {}, child: const Text("Check for Updates")),
+            // )
           ],
         ),
         Expanded(
